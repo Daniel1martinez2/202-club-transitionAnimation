@@ -30,6 +30,7 @@ siteTransitions.forEach((elem)=>{
                window.location.href= event.target.getAttribute('href'); 
             }
         }); 
+        
         gsap.fromTo(transitionDiv1,{
             x:'100%'
         },{
